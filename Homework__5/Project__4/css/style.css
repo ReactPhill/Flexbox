@@ -120,6 +120,15 @@
     }
 }
 
+@media(max-width:420px){
+    .nav__item{
+        background: #20bf6b;
+        padding: 9px;
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
 @media(max-width:320px){
     .container2 span{
         font-size: 60px;
@@ -131,12 +140,6 @@
 
     .email .text{
         margin-bottom: 40px;
-    }
-
-    .nav__item{
-        background: #20bf6b;
-        padding: 9px;
-        font-size: 14px;
     }
 
     .photo{
