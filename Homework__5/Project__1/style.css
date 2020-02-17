@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.items{
+    background: #FFC312;
+    width: 60px;
+    height: 100px;
+    margin: 10px;
+}
+
+.item__1, .item__9{
+    background: #C4E538;
+}
+
+.item__8{
+    width: 100px;
+}
+
+.item__9{
+    flex-grow: 0;
+    flex-basis: 87%;
+}
